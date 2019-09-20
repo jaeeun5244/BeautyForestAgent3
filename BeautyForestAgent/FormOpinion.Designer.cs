@@ -74,10 +74,10 @@
             // 
             // rtbText
             // 
-            this.rtbText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtbText.Dock = System.Windows.Forms.DockStyle.Top;
             this.rtbText.Location = new System.Drawing.Point(0, 25);
             this.rtbText.Name = "rtbText";
-            this.rtbText.Size = new System.Drawing.Size(485, 294);
+            this.rtbText.Size = new System.Drawing.Size(485, 241);
             this.rtbText.TabIndex = 3;
             this.rtbText.Text = resources.GetString("rtbText.Text");
             // 
@@ -89,6 +89,7 @@
             this.tsbtnFont.Name = "tsbtnFont";
             this.tsbtnFont.Size = new System.Drawing.Size(23, 22);
             this.tsbtnFont.Text = "tsbtnFont";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
