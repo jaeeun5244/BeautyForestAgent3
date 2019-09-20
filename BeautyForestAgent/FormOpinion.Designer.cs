@@ -99,6 +99,7 @@
             this.tsbtnColor.Name = "tsbtnColor";
             this.tsbtnColor.Size = new System.Drawing.Size(23, 22);
             this.tsbtnColor.Text = "toolStripButton2";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // label1
             // 
